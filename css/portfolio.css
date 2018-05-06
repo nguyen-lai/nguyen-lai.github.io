@@ -15,11 +15,9 @@
     /* padding-bottom: 200px; */
 }
 
-div.container.text-center {
+/* div.container.text-center {
     height: 320px;
-    
-
-}
+} */
 
 .typewrite {
     color:white;
@@ -44,7 +42,11 @@ div.container.text-center {
     right: 10px;
     bottom: 10px;
   }
-  
+
+  #socialmedia {
+      position: relative;
+  }
+
 /* .typewrite:after { /* this is the lower border 
     content:"";
     display:block;
