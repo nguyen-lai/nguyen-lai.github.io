@@ -49,8 +49,23 @@ window.onload = function() {
         }
     }
     // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff;}";
-    document.body.appendChild(css);
+    // var css = document.createElement("style");
+    // css.type = "text/css";
+    // css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff;}";
+    // document.body.appendChild(css);
 };
+$(document).ready(function() {
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() { 
+        $('#slideshow > div:first')
+        .fadeOut()
+        .next('div')
+        .fadeIn()
+        .end()
+        .appendTo('#slideshow');
+        },  15000);
+});
+
+
+

@@ -7,14 +7,20 @@
         rgba(0, 0, 0, 0.5)
       ),url(../img/background.jpg);
     background-repeat: no-repeat;
-    /* background-size:100% 800px; */
     background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-backgraound-size:cover;
     /* background-position-y: -120px; */
+    /* padding-bottom: 200px; */
 }
 
 div.container.text-center {
     height: 320px;
+    
+
 }
+
 .typewrite {
     color:white;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -22,6 +28,23 @@ div.container.text-center {
     padding-top: 5px;
 }
 
+#slideshow {
+    /* margin: 80px auto; */
+    position: relative;
+    /* width: 240px; */
+    height: 150px;
+    /* padding: 10px; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); */
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+  
 /* .typewrite:after { /* this is the lower border 
     content:"";
     display:block;
