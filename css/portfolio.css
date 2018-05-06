@@ -11,6 +11,9 @@
     background-position-y: -120px;
 }
 
+div.container.text-center {
+    height: 320px;
+}
 .typewrite {
     color:white;
     font-family: "Comic Sans MS", cursive, sans-serif;
