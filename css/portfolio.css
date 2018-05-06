@@ -7,8 +7,9 @@
         rgba(0, 0, 0, 0.5)
       ),url(../img/background.jpg);
     background-repeat: no-repeat;
-    background-size:100% 800px;
-    background-position-y: -120px;
+    /* background-size:100% 800px; */
+    background-size:cover;
+    /* background-position-y: -120px; */
 }
 
 div.container.text-center {
