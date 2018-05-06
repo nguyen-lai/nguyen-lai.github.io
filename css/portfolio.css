@@ -43,9 +43,33 @@
     bottom: 10px;
   }
 
-  #socialmedia {
-      position: relative;
-  }
+#socialmedia {
+    position: relative;
+}
+
+#about-nav {
+    color:white;
+    font-size:20px;
+}
+
+#education-nav {
+    color:white;
+    font-size:20px;
+}
+
+#experience-nav {
+    color:white;
+    font-size:20px;
+}
+
+#contact-nav {
+    color:white;
+    font-size:20px;
+}
+
+.navBar-dark {
+    background-color: #343a40;
+}
 
 /* .typewrite:after { /* this is the lower border 
     content:"";

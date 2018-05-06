@@ -64,7 +64,19 @@ $(document).ready(function() {
         .fadeIn()
         .end()
         .appendTo('#slideshow');
-        },  5000);
+        },  15000);
+});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+     //console.log(scroll);
+    if (scroll >= 550) {
+        console.log('a');
+        $(".navbar").addClass("navBar-dark");
+    } else {
+        console.log('a');
+        $(".navbar").removeClass("navBar-dark");
+    }
 });
 
 
