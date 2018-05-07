@@ -64,7 +64,7 @@ $(document).ready(function() {
         .fadeIn()
         .end()
         .appendTo('#slideshow');
-        },  15000);
+        },  3000);
 });
 
 $(window).scroll(function() {    
