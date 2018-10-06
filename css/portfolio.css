@@ -1,6 +1,24 @@
 /* Google Fonts */
 /* @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro); */
 
+
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu:300,400,700);
+
+h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 40px; 
+   font-style: italic;
+} 
+
+h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
 .bg-primary.text-white {
     background-image:     linear-gradient(
         rgba(221, 136, 38, 0.5),
@@ -69,6 +87,89 @@
 
 .navBar-dark {
     background-color: #343a40;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+
+}
+
+blockquote {
+  display: block;
+  color: #3d748f;
+  font-family: 'Sanchez', serif;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5em 0 0.5em;
+  margin: 2em 0 0 0;
+  font-size: 1.25rem;
+  font-weight: 300;
+  position: relative;
+}
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 3rem;
+  height: 2rem;
+  font: 6em/1.08em 'PT Sans', sans-serif;
+  color: #666;
+  text-align: center;
+}
+blockquote:after {
+  content: "\2013 \2003" attr(cite);
+  display: block;
+  text-align: right;
+  font-size: 0.875em;
+  color: #e74c3c;
+
+}
+
+.item.row {
+    margin-bottom: 5em;
+}
+
+.edu-pic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+/*#edu {
+    padding-top: 50px;
+}*/
+
+#edu-uw-des {
+    padding-left: 60px;
+}
+
+.lead.school {
+    display: block;
+    /*margin-bottom: 0.15em;*/
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}  
+
+.sch-degree {
+    color: #009933;
+    font-weight: 600;
+    display: block;
+
+}
+
+.sch-location {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 1em;
 }
 
 /* .typewrite:after { /* this is the lower border 
