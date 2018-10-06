@@ -143,6 +143,7 @@ blockquote:after {
     border-radius: 50%;
     height: 200px;
     width: 200px;
+
 }
 
 /*#edu {
@@ -150,7 +151,7 @@ blockquote:after {
 }*/
 
 #edu-uw-des {
-    padding-left: 60px;
+    margin-left: 60px;
 }
 
 .lead.school {
@@ -171,6 +172,8 @@ blockquote:after {
     display: block;
     margin-bottom: 1em;
 }
+
+
 
 /* .typewrite:after { /* this is the lower border 
     content:"";
