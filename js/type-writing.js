@@ -71,10 +71,10 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
      //console.log(scroll);
     if (scroll >= 550) {
-        console.log('a');
+        //console.log('a');
         $(".navbar").addClass("navBar-dark");
     } else {
-        console.log('a');
+        //console.log('a');
         $(".navbar").removeClass("navBar-dark");
     }
 });
