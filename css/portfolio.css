@@ -166,6 +166,10 @@ blockquote:after {
 
 }
 
+.sch-des {
+    display: block;
+}
+
 .sch-location {
     font-weight: 600;
     display: block;
